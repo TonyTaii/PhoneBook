@@ -1,0 +1,19 @@
+#section1{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    
+    border-bottom: 1px solid rgba(230, 224, 224, 0.801);
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
+    margin-top: 10px;
+    }
+    #name,#number{
+        width: 40%;
+      }
+      #add{
+    width: 20%;
+      }

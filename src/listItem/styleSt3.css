@@ -1,0 +1,9 @@
+.listItem{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 244, 244);
+    border-radius: 15px;
+    margin-top: 20px;
+}

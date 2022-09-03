@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import NameNumber from './section1/nameNumber';
+import SearchDelete from './section2/searchDelete';
+import ListItem from './listItem/lisItem';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className="main">
+   <NameNumber/>
+   <SearchDelete/>
+   <div id="list">
+   <ListItem name="Alice" number="(816)-403-5456"/>
+   <ListItem name="Bob" number="(572)-566-2397"/>
+   <ListItem name="Cris" number="(864)-309-4841"/>
+   <ListItem name="Daniel" number="(816)-403-5456"/>
+   </div>
+   </div>
+   );
 }
 
 export default App;

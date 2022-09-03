@@ -1,0 +1,36 @@
+.as{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    
+    margin:auto;
+    margin-top: 15px;
+    }
+    #section2{
+        margin:auto 5px;
+        width: 80%;
+        margin-left: 0;
+        width: 100%;
+    }
+    #searchText{
+       width: 81%;
+      margin-right: 5px;
+    }
+    #section3{
+        margin-left: -9px;
+    }
+   
+   
+    .nameItem,.numberItem{
+        margin: auto 10px;
+    }
+   #section3{
+    width: 19%;
+    
+   }
+   #delete{
+    width: 100%;
+   }
+    
+   
